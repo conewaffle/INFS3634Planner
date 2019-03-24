@@ -41,7 +41,7 @@ public class WeekDetail {
         String s = this.date.format(md);
         return s;}
     public String getDateEnd(){
-        DateTimeFormatter mdy = DateTimeFormatter.ofPattern("dd MMM yy");
+        DateTimeFormatter mdy = DateTimeFormatter.ofPattern("dd MMM");
         LocalDate end = this.date.plusDays(6);
         String s = end.format(mdy);
         return s;

@@ -47,9 +47,9 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
 
     @Override
     public void onBindViewHolder(MyViewHolder holder, int position){
-        holder.cardView.setCardBackgroundColor(Color.argb(255,13,71,161));
+        holder.cardView.setCardBackgroundColor(Color.argb(200,13,71,161));
 
-        holder.date.setText("Mon " + mDataset.get(position).getDateString() + " - " + mDataset.get(position).getDateEnd());
+        holder.date.setText(mDataset.get(position).getDateString() + "\n - \n"  + mDataset.get(position).getDateEnd());
         holder.lab.setText("Lab: " + mDataset.get(position).getLab());
         holder.lec.setText("Lecture: " + mDataset.get(position).getLec());
         holder.weekterm.setText(mDataset.get(position).getWeekNo());

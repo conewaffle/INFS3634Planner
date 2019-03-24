@@ -42,7 +42,7 @@
                 android:fontFamily="sans-serif-black"
                 android:text="Week Starting: "
                 android:textColor="@android:color/white"
-                android:textSize="16sp"
+                android:textSize="18sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
@@ -55,7 +55,7 @@
                 android:fontFamily="sans-serif-black"
                 android:text="week"
                 android:textColor="@android:color/white"
-                android:textSize="16sp"
+                android:textSize="18sp"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
@@ -70,7 +70,7 @@
                 android:fontFamily="sans-serif-medium"
                 android:text="Lecture: "
                 android:textColor="@android:color/white"
-                android:textSize="14sp"
+                android:textSize="16sp"
                 app:layout_constraintBottom_toTopOf="@+id/textLab"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.0"
@@ -88,7 +88,7 @@
                 android:fontFamily="sans-serif-medium"
                 android:text="Tutorial:"
                 android:textColor="@android:color/white"
-                android:textSize="14sp"
+                android:textSize="16sp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.0"

@@ -61,7 +61,6 @@ public class WeekDetail {
 
         for(int i=1;i<54;i++){
 
-
             if(weekNo==8||weekNo==23||weekNo==38) { termWeek = "1"; lec = "Introduction & Android Fundamentals"; lab = "Android Studio, Git & App Basics";}
             else if(weekNo==9||weekNo==24||weekNo==39) { termWeek = "2"; lec = "Activities, Lifecycle & Intents"; lab = "Activities & Intents";}
             else if(weekNo==10||weekNo==25||weekNo==40) {termWeek = "3"; lec = "Layouts & UI"; lab = "Designing a UI";}
@@ -72,7 +71,7 @@ public class WeekDetail {
             else if(weekNo==15||weekNo==30||weekNo==45) {termWeek = "8"; lec = "Threads & Async Tasks"; lab = "Async Tasks";}
             else if(weekNo==16||weekNo==31||weekNo==46) {termWeek = "9"; lec = "Data Saving"; lab = "Database";}
             else if(weekNo==17||weekNo==32||weekNo==47) {termWeek = "10"; lec = "Outlook & Course Summary"; lab = "Revision";}
-            else {termWeek = "N/A"; lec = "N/A"; lab = "N/A";}
+            else {termWeek = "Break"; lec = "N/A"; lab = "N/A";}
 
             if(weekNo==18){termWeek = "Study";}
             if(weekNo==33||weekNo==48||weekNo==19||weekNo==20||weekNo==34||weekNo==35){termWeek = "Exams";}
@@ -89,10 +88,5 @@ public class WeekDetail {
 
         return weekDetails;
     }
-
-
-
-
-
 
 }

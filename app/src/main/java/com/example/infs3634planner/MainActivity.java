@@ -37,16 +37,14 @@ public class MainActivity extends AppCompatActivity {
 
         LocalDate today = LocalDate.now();
         int day = today.getDayOfYear();
-
         int position = 0;
         for(int i=0; i<53; i++){
             if(myDataset.get(i).getDate().getDayOfYear()<=day){
                 position = i;
             }
-
         }
-
         recyclerView.smoothScrollToPosition(position);
+
     }
 
     public void search(View view){

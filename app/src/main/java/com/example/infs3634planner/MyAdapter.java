@@ -50,7 +50,6 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
         holder.cardView.setCardBackgroundColor(Color.argb(255,13,71,161));
 
         holder.date.setText("Mon " + mDataset.get(position).getDateString() + " - " + mDataset.get(position).getDateEnd());
-
         holder.lab.setText("Lab: " + mDataset.get(position).getLab());
         holder.lec.setText("Lecture: " + mDataset.get(position).getLec());
         holder.weekterm.setText(mDataset.get(position).getWeekNo());
@@ -61,19 +60,11 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
             holder.lec.setText(" ");
         }
 
-        if(mDataset.get(position).getWeekNo().equals("Study")||mDataset.get(position).getWeekNo().equals("Exams")){
-            holder.cardView.setCardBackgroundColor(Color.argb(255,136,14,79));
-        }
-
-        if (mDataset.get(position).getWeekNo().equals("N/A")){holder.weekterm.setText("Break");}
-
-
     }
 
     @Override
     public int getItemCount(){
         return mDataset.size();
     }
-
 
 }
